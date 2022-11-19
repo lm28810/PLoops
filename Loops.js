@@ -45,4 +45,15 @@ const whatAge = ()=> {
 
 whatAge()
 
-Complete questions 4 6 9
+// The Lap Loop
+
+const runLaps = () =>{
+    let laps = 0
+    for(let i=0; i<11; i++){
+        laps++
+        console.log("Another Lap" +" " +laps)
+    }
+}
+
+runLaps()
+Complete questions   9
